@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Name</title>
+
+    <style>
+        :root {
+            --bg: #121212;        /* dark gray, not pure black */
+            --text: #e6e2d9;      /* bone / off-white */
+            --muted: #a6a39a;     /* softer bone */
+            --accent: #f0ede4;    /* slightly brighter bone */
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background: var(--bg);
+            color: var(--text);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont,
+                         "Segoe UI", Roboto, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.65;
+        }
+
+        .container {
+            max-width: 720px;
+            padding: 4rem 1.5rem;
+            margin: 0 auto;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            font-weight: 600;
+            margin-bottom: 0.4rem;
+            color: var(--accent);
+        }
+
+        h2 {
+            font-size: 1.25rem;
+            font-weight: 500;
+            margin-top: 3rem;
+            margin-bottom: 0.5rem;
+            color: var(--accent);
+        }
+
+        p {
+            margin: 0.5rem 0;
+        }
+
+        .muted {
+            color: var(--muted);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+        }
+
+        a:hover {
+            border-bottom: 1px solid var(--accent);
+        }
+
+        .links {
+            margin-top: 1.5rem;
+        }
+
+        .links a {
+            margin-right: 1.25rem;
+        }
+
+        footer {
+            margin-top: 4rem;
+            font-size: 0.875rem;
+            color: var(--muted);
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h1>Ertugrul Gacal</h1>
+        <p class="muted">Information Technologies Auditor</p>
+
+        <p>
+            Cybersecurity, Linux, and FOSS.
+            Love movies and computers.
+        </p>
+
+        <div class="links">
+            <a href="https://github.com/ertugrulgacal" target="_blank">GitHub</a>
+            <a href="https://linkedin.com/in/ertugrulgacal" target="_blank">LinkedIn</a>
+            <a href="mailto:ergacal@proton.me">Email</a>
+        </div>
+
+        <h2>Contact</h2>
+        <p>
+            You can reach me at
+            <a href="mailto:ergacal@proton.me">ergacal@proton.me</a>.
+        </p>
+
+        <footer>
+            © 2026 Ertugrul Gacal
+        </footer>
+    </main>
+</body>
+</html>
+
